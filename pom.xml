@@ -23,8 +23,8 @@
   </licenses>
 
   <scm>
-    <url>scm:git:https://github.com/Azure/azure-batch-sdk-for-java</url>
-    <connection>scm:git:git@github.com:Azure/azure-batch-sdk-for-java.git</connection>
+    <url>scm:git:https://github.com/jianghaolu/azure-batch-sdk-for-java</url>
+    <connection>scm:git:https://github.com/jianghaolu/azure-batch-sdk-for-java.git</connection>
     <tag>HEAD</tag>
   </scm>
 

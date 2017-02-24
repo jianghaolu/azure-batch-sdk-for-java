@@ -48,7 +48,7 @@ If ($(git rev-parse --abbrev-ref HEAD) -ne $branch) {
 
 # Check diff
 echo "Checking if your $branch is in sync..."
-git remote add release https://github.com/Azure/azure-batch-sdk-for-java.git
+git remote add release https://github.com/jianghaolu/azure-batch-sdk-for-java.git
 git fetch release
 If ($(git diff release/$branch) -ne $null) {
     echo "Your $branch branch is different from https://github.com/Azure/azure-batch-sdk-for-java.git, please sync before running this script."
